@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservations",
+  "info": {
+    "name": "reservations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "confirmation_code": {
+      "type": "uid"
+    },
+    "checkInDate": {
+      "type": "date"
+    },
+    "checkOutDate": {
+      "type": "date"
+    },
+    "rating": {
+      "type": "integer",
+      "max": 5,
+      "min": 0
+    },
+    "cityImage": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "kasaName": {
+      "type": "string"
+    }
+  }
+}
